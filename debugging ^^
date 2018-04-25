@@ -1,0 +1,15 @@
+def func_4(a,b,c):
+    if a > b:
+    if a > c:
+        return "a the bigger"
+    if b > a:
+    if b > c:
+        return "b the bigger"
+    if c > a:
+    if c > b:
+        return "c the bigger"
+        
+print func_4(7,8,9)
+print func_4(2,3,6)
+print func_4(5,6,3)
+    
